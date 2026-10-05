@@ -1,0 +1,211 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+}
+#header{
+    width:100%;
+    height:20vh;
+    background-color: rgb(223, 237, 237);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+#header p{
+    font-size:40px;
+    font-weight:bold;
+}
+#header img{
+    height:100%;
+}
+#header div{
+    display:flex;
+    height:100%;
+    align-items:center;
+}
+#middle{
+    width:100%;
+    height:15vh;
+    background-color: rgb(13, 4, 148);
+}
+#a1,#a2{
+    height:7.5vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+}
+.text{
+    display:flex;
+    font-size:20px;
+    padding: 0px 10px;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    height:100%;
+    align-items:center;
+    justify-content:center;
+}    
+ #logo{
+    padding: 0px 11px;
+    border-bottom: 1px solid white;
+    height:100%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+ }
+ #logo:hover,.text:hover{
+    background-color: rgb(0, 123, 255);
+ }
+ .a2text{
+    font-size:20px;
+    height:100%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    padding:0px 10px
+ }
+.a2text:hover{
+    background-color: rgb(0, 123, 255);
+}
+#page1{
+    display:flex;
+}
+#page1a{
+    width:60%;
+    height:65vh;
+    background-color:blueviolet;
+}
+#page1a img{
+    height:100%;
+    width:100%;
+}
+#page1b{
+    height:65vh;
+    width:40%;
+    background-color: rgb(73, 139, 239);
+}
+#page1b h2{
+    color:white;
+    margin-top:10px;
+    margin-left:10px;
+    border-bottom:1px solid black;
+    background-color: rgb(73, 139, 239);
+}
+#newsbox{
+    padding-top:10px;
+    padding-left:30px;
+    font-size:25px;
+    width:100%;
+    height:90%;
+    overflow:hidden;
+}
+#news{
+    width:90%; 
+    animation: scrollNews 10s linear infinite; 
+}
+@keyframes scrollNews {
+    from{transform:translateY(0);}
+    to{transform:translateY(-100%);}
+}
+#page2{
+    width:100%;
+    height:98vh;
+    background-color: brown;
+}
+#slider{
+    height:5vh;
+    background-color: rgb(66, 13, 13);
+    color:rgb(14, 232, 14);
+    font-size:20px;
+    width:100%;
+    overflow:hidden;
+}
+#slide{
+    display:flex;
+    align-items:center;
+    height:100%;
+    width:140%;
+    animation: scrollSlide 19s linear infinite; 
+}
+
+@keyframes scrollSlide {
+    from{transform:translateX(0);}
+    to{transform:translateX(-100%);}
+}
+
+
+#slide p{
+    margin-left:50px;
+}
+#middle2{
+    display:flex;
+    justify-content:center;
+    width:100%
+
+}
+#about{
+    width:20%;
+    background-color: aqua;
+    margin-left:10px;
+
+}
+#Examination{
+    width:20%;
+    background-color: blue;
+     margin-left:10px;
+}
+#recruitment{
+    width:20%;
+    background-color: bisque;
+     margin-left:10px;
+}
+#noti{
+    width:20%;
+    background-color: blueviolet;
+    margin-left:10px;
+}
+#tag1,#tag2,#tag3,#tag4,#tag5,#tag6,#tag7{
+    width:100%;
+    padding:20px;
+}
+#Examination h2,#recruitment h2,#about h2{
+    border-bottom: 2px solid black;
+    font-size:30px;
+}
+ul{
+    font-size:20px;
+
+}
+li{
+    padding:5px;;
+}
+#tag1{
+    background-color:rgb(124, 123, 122);
+}
+#tag2{
+background-color: rgb(241, 163, 19);
+}
+#tag3{
+    background-color: rgba(56, 54, 54, 0.527);
+}
+#tag4{
+    background-color: rgb(84, 8, 22);
+}
+#tag5{
+    background-color: rgb(11, 169, 26);
+}
+#tag6{
+    background-color: rgb(138, 47, 223);
+}
+
+    /* background-color: rgb(9, 124, 36); */
+
